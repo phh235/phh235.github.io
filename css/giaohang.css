@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 1000px;
+    height: 745px;
+    background: white;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    background-color: white;
+}
+
+nav {
+    width: 100%;
+    height: 500px;
+    background-color: #d9d9d9;
+}
+
+.img img{
+    width: 3%;
+    display: block;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+
+.img-2 img {
+    width: 3%;
+    display: block;
+    margin-left: 50px;
+    margin-top: -29px;
+}
+
+.img-3 img {
+    width: 3%;
+    display: block;
+    margin-left: 50px;
+    margin-top: -25px;
+}
+
+.img-4 img {
+    width: 3%;
+    display: block;
+    margin-left: 50px;
+    margin-top: -25px;
+}
+
+.img-5 img {
+    width: 3%;
+    display: block;
+    margin-left: 50px;
+    margin-top: -25px;
+}
+
+.chuan-bi {
+    color: #2EC772;
+    font-family: 'Montserrat';
+    margin-left: 100px;
+    margin-top: -29px;
+    
+}
+
+.chuan-bi-1 {
+    color: #2EC772;
+    font-family: 'Montserrat';
+    margin-left: 100px;
+    padding-top: 40px;
+    
+}
+
+.chuan-bi-2 {
+    color: #2EC772;
+    font-family: 'Montserrat';
+    margin-left: 100px;
+    padding-top: 35px;
+    
+}
+
+.chuan-bi-3 {
+    color: #2EC772;
+    font-family: 'Montserrat';
+    margin-left: 100px;
+    padding-top: 35px;
+    
+}
+
+.chuan-bi-4 {
+    color: #2EC772;
+    font-family: 'Montserrat';
+    margin-left: 100px;
+    padding-top: 35px;
+}
+
+.dang-giao-hang {
+    font-family: 'Montserrat';
+    margin-left: 30px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+/* Button */
+.action {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .action button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    background: #ffd154;
+    color: #2098b9;
+    transition: .3s;
+    cursor: pointer;
+    margin-left: 790px;
+    margin-top: -10px;
+}
+.action button:hover{
+    box-shadow: 0 0 0 5px #3b83f65f;
+    color: #ffd154;
+    background: #2098b9;
+    transition: .3s;
+  }

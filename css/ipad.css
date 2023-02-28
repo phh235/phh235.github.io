@@ -1,0 +1,136 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    text-decoration: none;
+  }
+
+
+/*--- section product ---*/
+.product-mac,
+.product-iphone,
+.product-watch,
+.product-ipad {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  cursor: pointer;
+}
+.product-mac h2,
+.product-iphone h2,
+.product-watch h2,
+.product-ipad h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.container {
+  width: 1070px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+.grid-product {
+  background: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+  border-radius: 10px;
+  box-shadow: 0 0 2px #3d3d3d;
+  cursor: default;
+}
+
+.grid-product img {
+  width: 300px;
+  transition: .3s;
+}
+
+.grid-product img:hover{
+  transform: translateY(-20px);
+  transition: .3s;
+}
+
+.grid-detail {
+  margin: 20px 0;
+  text-align: center;
+  color: #1e90ff;
+  font-weight: bold;
+  font-family: "consolas";
+  font-size: 20px;
+  /* margin-left: -150px; */
+}
+
+.product-text {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .action button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 500;
+    background:  #3b82f6;
+    color: #fff;
+    transition: .3s;
+    cursor: pointer;
+  }
+  .action button:hover{
+    background-color: #3b82f6;
+    color: #fff;
+    box-shadow: 0 0 0 5px #3b83f65f;
+    transform: scale(0.9);
+    transition: .3s;
+  }
+  /*-------*/
+  .grid-full {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  .grid-product-full {
+    background: #f1f1f1;
+    grid-column: span 3;
+    display: flex;
+    position: relative;
+  }
+
+  .ipad, .ipad-1, .ipad-2 {
+    padding: 30px 30px;
+  }
+
+  .ipad-3 {
+    padding: 50px 50px;
+  }
+
+  .ipad-air {
+    padding: 53px 53px;
+  }
+
+  .ipad-air-1 {
+    padding: 20px 20px;
+  }
+
+  .ipad-air-2 {
+    padding: 20px 20px;
+  }

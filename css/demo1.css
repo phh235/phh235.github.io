@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: black;
+}
+.img{
+    width: 400px;
+    height: 1000px;
+    background: url(/image/gallery_deep_purple__du23dbfjl1km_large.jpg);
+    transition: 1s;
+    margin-left: 550px;
+    margin-top: -500px;
+}
+p{
+    display: inline-block;
+    cursor: pointer;
+    color: #3d3d3d;
+    font-family: 'Inter';
+    font-size: 21px;
+    font-weight: 900;
+    margin-left: 1050px;
+    padding: 8px 0 8px 0;
+}
+
+.p1 {
+    margin-top: 350px;
+}
+
+/* Dùng FOCUS để nhấp, sau đó thêm transition vào cho hoạt cảnh smooth hơn */
+
+p:hover{
+    color: white;
+}
+.p1:focus ~ div{
+    background: url(/image/gallery_deep_purple__du23dbfjl1km_large.jpg);
+}
+.p2:focus ~ div{
+    background: url(/image/gallery_gold__e2kfk9zl5eie_large.jpg);
+}
+.p3:focus ~ div{
+    background: url(/image/gallery_silver__eph35go3eiy6_large.jpg);
+}
+.p4:focus ~ div{
+    background: url(/image/gallery_space_black__ev5ncqabz7ma_large\ \(1\).jpg);
+}

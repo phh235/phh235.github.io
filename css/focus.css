@@ -1,0 +1,542 @@
+
+.text-color {
+    text-decoration: none;
+    color: #cecece;
+    font-size: 32px;
+    font-family: 'Inter';
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 280px;
+    margin-right:200px;
+    margin-bottom: 55px;
+}
+
+.p {
+    font-size: 28px;
+    font-weight: 700;
+    color: #cecece;
+    cursor: default;
+    margin-left: 550px;
+    margin-right:470px;
+}
+
+.aod {
+    margin-left: 300px;
+}
+
+.aod img {
+    width: 45%;
+    margin-top: -560px;
+    margin-bottom: 200px;
+}
+
+.text-aod{
+    color: #cecece;
+    font-size: 28px;
+    font-weight: 700;
+    color: #cecece;
+    cursor: default;
+    margin-top: 400px;
+    margin-left: 635px;
+    margin-right: 90px;
+    padding-left: 30px;
+}
+
+.gardient-text {
+    color: #ffb6ff;
+    text-shadow: 5px 5px 35px #b344ff;
+}
+
+/* customize your lockscreen */
+.customize-lockscreen img{
+    width: 95%;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+h2{
+    margin-top: 180px;
+    font-size: 30px;
+    color: #cecece;
+    margin-left: 420px;
+    margin-right: 370px;
+}
+h1 {
+    margin-top: 20px;
+    font-size: 180px;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(180deg, #ffe993, #eb831c);
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+center img {
+    width: 80%;
+}
+
+.purple-text h3{
+    display: inline-block;
+    margin-left: 70px;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 50px;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(180deg,#ffb6ff,#b344ff);
+}
+
+.meet-iphone {
+    color: #cecece;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: 'Inter';
+    margin-top: 300px;
+    margin-left: 300px;
+}
+
+.meet-iphone-small-text {
+    color: #cecece;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 28px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 480px;
+}
+
+.dynamic-island img{
+    margin-left: 300px;
+    margin-top: 120px;
+}
+
+.text-3-iphone {
+    color: #cecece;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Inter';
+    margin-top: 280px;
+    margin-left: 300px;
+    margin-right: 380px;
+    display: inline-block;
+}
+
+.dynamic-island-2 img {
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 450px;
+}
+
+.dynamic-island-3 img{
+    width: 60%;
+    margin-top: 300px;
+    margin-left: 540px;
+}
+
+.text-4-iphone {
+    color: #cecece;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 21px;
+    margin-left: 90px;
+    margin-right: 1100px;
+    margin-top: -500px;
+}
+
+.text-5-iphone h3{
+    color: transparent;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 90px;
+    margin-right: 1100px;
+    margin-top: 100px;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(180deg,#ffb6ff,#b344ff);
+}
+
+.aod-text {
+    color: #cecece;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Inter';
+    margin-left: 370px;
+    margin-top: 300px;
+}
+
+.high-nits img {
+    width: 17%;
+    margin-top: 220px;
+    margin-left: 500px;
+}
+.high-nits-text h3 {
+    color: #cecece;
+    font-weight: bold;
+    font-family: 'Inter';
+    font-size: 22.5px;
+    margin-top: -500px;
+    margin-left: 800px;
+    margin-right: 460px;
+    padding: 5px 0 5px 20px;
+}
+
+.high-nits-text-2 {
+    color: #cecece;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Inter';
+    margin-top: 250px;
+    margin-left: 400px;
+    margin-right: 450px;
+}
+
+.film-record img {
+    width: 55%;
+    margin-top: 50px;
+    margin-left: 310px;
+}
+
+.high-nits-text-3 {
+    color: #cecece;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Inter';
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 450px;
+
+}
+
+.genshin img{
+    width: 80%;
+    margin-top: 70px;
+    margin-left: 150px;
+}
+
+.sos-text {
+    color: #cecece;
+    font-size: 65px;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    font-family: 'Inter';
+    margin-top: 50px;
+    margin-left: 280px;
+    margin-right: 350px;
+    padding: 10px 0 10px 0;
+}
+
+.sos-text-2 {
+    color: #cecece;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    font-family: 'Inter';
+    margin-top: 100px;
+    margin-left: 280px;
+}
+
+.safety {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 90%;
+}
+
+.sos-text-3 {
+    color: #cecece;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    font-family: 'Inter';
+    margin-top: -300px;
+    margin-left: 850px;
+    margin-right: 180px;
+}
+
+.sos-text-4 {
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    font-family: 'Inter';
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 780px;
+    color: #cecece;
+}
+
+.sos-text-5 {
+    font-size: 22px;
+    letter-spacing: -0.015em;
+    font-family: 'Inter';
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 850px;
+    color: #cecece;
+}
+
+
+.sos-img {
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 300px;
+}
+
+.emergency-sos-text {
+    height: 330px;
+}
+
+.emergency-sos-text h3{
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 22px;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(180deg,#ffb6ff,#b344ff);
+    margin-top: 30px;
+    margin-right: 500px;
+    padding-left: 800px;
+}
+
+.emergency-text {
+    font-size: 23px;
+    color: #cecece;
+    padding-top: 30px;
+    margin-left: 800px;
+    margin-right: 330px;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+
+
+.emergency-text-1 {
+    color: #818186;
+    margin-top: -800px;
+    padding-left: 800px;
+    margin-right: 330px;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.sos-image-2 {
+    padding-left: 900px;
+    margin-top: -700px;
+}
+
+.ip14-show-case-1  img{
+    width: 97%;
+    padding-left: 50px;
+    padding-top: 180px;
+}
+
+.ip14-show-case-text h3{
+    color: #cecece;
+    font-size: 50px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.camera-48 img{
+    /* margin-top: 40px; */
+    width: 90%;
+}
+
+.camera-text h3{
+    color: transparent;
+    margin-top: 350px;
+    padding-left: 500px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    -webkit-background-clip: text;
+    background-image: linear-gradient(180deg,#ffb6ff,#b344ff);
+}
+
+.camera-text-2 {
+    color: #cecece;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Inter';
+    padding-left: 300px;
+    margin-top: 20px;
+}
+
+.camera-text-3 {
+    color: #cecece;
+    font-family: 'Inter';
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 650px;
+}
+
+.camera-text-4 h3{
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(180deg,#ffb6ff,#b344ff);
+    font-size: 23px;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 700px;
+}
+
+.camera-text-5 {
+    color: #808085;
+    font-family: 'Inter';
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 400px;
+    margin-right: 700px;
+}
+
+.camera-text-6 {
+    color: #cecece;
+    font-family: 'Inter';
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 650px;
+}
+.her-48 {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.camera-text-7 {
+    color: #cecece;
+    font-family: 'Inter';
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 850px;
+}
+
+.camera-quad {
+    margin-top: 100px;
+    padding-left: 330px;
+}
+
+.camera-text-8 {
+    color: #cecece;
+    font-family: 'Inter';
+    font-size: 19px;
+    margin-top: -195px;
+    margin-left: 800px;
+    margin-right: 400px;
+}
+
+.chip-text {
+    color: #cecece;
+    font-family: 'Inter';
+    font-size: 50px;
+    margin-top: 400px;
+    margin-left: 70px;
+}
+
+.chip-text-2 {
+    color: #cecece;
+    font-family: 'Inter';
+    font-size: 27px;
+    margin-left: 70px;
+    margin-top: -20px;
+}
+
+
+.chip-img img{
+    width: 40%;
+    margin-left: 850px;
+    margin-top: -310px;
+}
+
+.chip-text-3 h3{
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(180deg,#ffb6ff,#b344ff);
+    font-size: 90px;
+    margin-top: -250px;
+    margin-left: 70px;
+}
+
+.chip-text-4 h3{
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(180deg,#ffb6ff,#b344ff);
+    font-size: 30px;
+    margin-top: 250px;
+    margin-left: 500px;
+}
+
+.chip-text-4_1 {
+    color: #808085;
+    font-family: 'Inter';
+    font-size: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 10px;
+}
+
+.battery-text {
+    color: #cecece;
+    font-family: 'Inter';
+    font-size: 30px;
+    margin-left: 400px;
+    margin-top: 200px;
+}
+
+.battery-text-1 h3{
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(180deg,#ffb6ff,#b344ff);
+    font-size: 150px;
+    font-family: 'Montserrat';
+    margin-top: 10px;
+    margin-left: 400px;
+}
+
+.battery-text-2 h3{
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(180deg,#ffb6ff,#b344ff);
+    font-size: 150px;
+    font-family: 'Montserrat';
+    margin-top: 10px;
+    margin-left: 600px;
+}
+
+.battery-text-3 {
+    color: #cecece;
+    font-family: 'Inter';
+    font-size: 27px;
+    margin-left: 500px;
+    margin-right: 600px;
+    margin-top: 50px;
+}
+
+.battery-text-4 {
+    color: #cecece;
+    font-family: 'Montserrat';
+    font-size: 50px;
+    margin-left: 260px;
+    margin-top: 200px;
+}
+
+.battery-text-5 {
+    font-family: 'consolas';
+    font-size: 50px;
+    margin-left: 450px;
+    margin-top: 20px;
+}
+
+.battery-text-5 a{
+    text-decoration: none;
+    color: #2098b9;
+}
+
+.battery-text-5 a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,68 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    transition: .1s;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;    
+    overflow-y: scroll;
+}
+
+#container{
+    width: 100%;
+    height: 25700px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    height: 1100px;
+    background-color: black;
+    /* float: left; */
+}
+
+article {
+    width: 100%;
+    height: 21900px;
+    background: black;
+    /* float: left; */
+}
+
+/* aside{
+    margin-top: 1000px;
+    width: 100%;
+    height: 2000px;
+    background-color: #ebebeb;
+    clear: both;
+}
+footer{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+} */
+
+/* Scrollbar customize */
+::-webkit-scrollbar{
+    width: 17px;
+    background: black;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #3d3d3d;
+    border-radius: 10px;
+}

@@ -1,0 +1,21 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+.menu-product {
+    width: 1535px;
+    height: 310px;
+    background-color: #d9d9d9;
+}
+
+/* height 320px, width 100%
+   height 270px width 1300px
+*/
+/* .menu-product:hover {
+    width: 100%;
+    height: 310px;
+    border-radius: 10px;
+    background-color: #FFDC66;
+}  */ */

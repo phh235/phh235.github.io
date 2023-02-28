@@ -1,0 +1,259 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+  text-decoration: none;
+}
+
+.header-container {
+    background: black;
+    height: 44px;
+    z-index: 300;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.header-container header {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 8px;
+    height: 100%;
+}
+
+header .apple-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header .apple-header li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    opacity: 0.8;
+    transition: opacity 400ms;
+}
+
+header .apple-header li a:hover {
+    opacity: 1;
+}
+
+.underline a:hover {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+
+.link-logo {
+    background: url('/image/apple-logo.svg');
+    display: block;
+    background-position: center;
+    height: 44px;
+    width: 15px;
+    background-repeat: no-repeat;
+}
+
+.link-search {
+    background: url('/image/search-icon.svg');
+    display: block;
+    background-position: center;
+    background-size: 18px;
+    height: 44px;
+    width: 20px;
+    background-repeat: no-repeat;
+}
+
+.link-bag {
+    background: url('/image/bag-icon.svg');
+    display: block;
+    background-position: center;
+    background-size: 17px;
+    height: 44px;
+    width: 20px;
+    background-repeat: no-repeat;
+}
+
+.link-close {
+    background: url('/image/close-icon.svg');
+    display: block;
+    background-position: center;
+    background-size: 17px;
+    height: 44px;
+    width: 20px;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    display: none;
+}
+
+.logo14{
+    width: 450px;
+    height: 120px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 60px;
+}
+
+.ip14 {
+    width: 1000px;
+    height: 800px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/* Scrollbar customize */
+::-webkit-scrollbar{
+    width: 17px;
+    background: white;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #d9d9d9;
+    border-radius: 10px;
+}
+
+/*--- section welcome ---*/
+.welcome {
+  width: 100%;
+  height: 500px;
+  background-image: url("https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/thai-aos-en-banner-hero-20160202?wid=1440&hei=689&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome h1 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+
+/*--- section product ---*/
+.product-mac,
+.product-iphone,
+.product-watch,
+.product-ipad {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  cursor: pointer;
+}
+.product-mac h2,
+.product-iphone h2,
+.product-watch h2,
+.product-ipad h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.container {
+  width: 1070px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+.grid-product {
+  background: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+  border-radius: 10px;
+  box-shadow: 0 0 2px #3d3d3d;
+  cursor: default;
+}
+
+.grid-product img {
+  width: 300px;
+}
+
+.grid-detail {
+  margin: 20px 0;
+  text-align: center;
+  /* margin-left: -150px; */
+}
+
+.product-text {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+/* .grid-detail p:last-child {
+  transition: .5s;
+  margin-top: 10px;
+} */
+/* .grid-product:hover > .grid-detail p:last-child {
+  color: #3498db;
+} */
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.action button {
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  font-weight: 500;
+  background: #1e90ff;
+  color: #fff;
+  transition: .3s;
+  cursor: pointer;
+}
+.action button:hover{
+  transform: scale(0.9);
+  transition: .3s;
+}
+/*-------*/
+.grid-full {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+.grid-product-full {
+  background: #f1f1f1;
+  grid-column: span 3;
+  display: flex;
+  position: relative;
+}
+/* .grid-detail-sum {
+  position: absolute;
+  top: 35%;
+  right: 12%;
+  text-align: center;
+}
+.grid-detail-sum h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.grid-detail-sum p {
+  margin: 20px 0;
+}
+.grid-detail-sum a {
+  color: #3498db;
+}
+.grid-detail-sum a:hover {
+  text-decoration: underline;
+} */
